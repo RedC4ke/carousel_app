@@ -25,6 +25,7 @@ class CarouselCard extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
           side: BorderSide(
+            // we're changing border color based on if the card is selected
             color: isSelected ? Colors.blue.shade400 : Colors.white,
             width: 4,
           ),
